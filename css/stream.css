@@ -1,0 +1,28 @@
+/* 874px */
+#main_aside{ /*140*/
+    border:none;
+}
+#stream{ /* 670px */
+    float:left;
+    width: 650px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+#activity_feed{ /* 204px */
+    width: 174px;
+    padding-left: 10px;
+    float:right;
+    overflow: hidden;
+}
+.activityComment{
+    float: left;
+    border-bottom: 1px solid #cccccc;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 11px;    
+}
+.activityComment .replyToPostIcons{
+    width: 30px;
+}

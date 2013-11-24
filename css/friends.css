@@ -1,0 +1,32 @@
+/** Friends Box **/
+.td-friend-icon .friendIcon{
+    width: 50px;
+    float: left;
+}
+.td-friend-icon{
+    width: 60px;
+    padding-left: 30px;
+}
+.td-friend-info{
+    padding-left: 20px;
+    padding-top: 2px;
+    width: 400px;
+}
+.td-friend-action{
+    padding-left: 20px;   
+}
+.td-chk{
+    width: 20px;    
+}
+.tr .td-chk{
+    padding-top: 18px; 
+}
+#myfriendsform #friends-box{
+    margin-bottom: 10px;
+}
+#myfriendsform .btn-row{
+    text-align: right;
+}
+.userfriends .td-friend-icon{
+    padding-left: 10px;
+}

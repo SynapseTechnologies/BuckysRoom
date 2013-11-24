@@ -1,0 +1,214 @@
+a:link.index_singleListingTitles, a:visited.index_singleListingTitles{
+}
+a:hover.index_singleListingTitles, a:active.index_singleListingTitles{
+}
+a:link.index_LikesAndComments, a:visited.index_LikesAndComments{
+    color: #666666;
+}
+a:hover.index_LikesAndComments, a:active.index_LikesAndComments{
+    color:#cc0000;
+}
+#main_content{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.index_selectDates{
+    width: 1004px;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 3px;
+    padding-bottom: 3px;
+}
+.index_singleListing{
+    width: 1004px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    float:left;
+}
+.index_singleListingContent{
+    width:944px;
+    margin-left: 10px;
+    float:left;
+    overflow: hidden;
+}
+.currentDateSelection{
+    font-weight: bold;
+    color: #cc0000 !important;
+    text-decoration: none !important;
+}
+.index_PostIcons{
+    width:50px;
+    float:left;
+}
+.index_ImageIcons{
+    width: 100%;
+    float:left;
+}
+.index_timeOfPost{
+    color:#999999;
+}
+h2.titles{
+    margin-top: 10px;
+}
+.tops_content h2.titles{
+    margin-top: 5px;
+}
+.top-images .index_singleListing{
+    width: 160px;
+    float: left;
+    margin-right: 9px;
+    text-align: center;
+}
+
+.top-images .index_singleListingContent{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5px;
+    text-align: left;
+}
+.index_singleListingEmpty{
+    margin-left: 10px;
+    text-align: left !important;
+}
+.top-videos .index_singleListing{
+    width: 238px;
+    margin-right: 17px;
+}
+.top-videos .index_singleListing .video img{
+    width: 238px;
+    height: 134px;
+}
+.top-videos .index_singleListingLast{
+    margin-right: 0 !important;
+}
+.top-videos .index_singleListingContent{
+    margin: 0;
+    width: 100%;
+}
+/*.top-videos .index_singleListing .video{
+    float: left;
+}
+.top-videos .index_singleListing .video-info{
+    float: left;
+}*/
+#homepage-lft{
+    width: 124px;
+    padding: 5px 10px 0 0px;
+    float: left;
+    margin-bottom: 10px;
+}
+#homepage-lft ul{
+    list-style: none;    
+}
+#homepage-lft ul li{
+    height: 24px;
+    line-height: 24px;
+    margin: 0 0 9px;
+    padding-left: 37px;
+}
+#homepage-lft ul li a{
+    font-size: 14px;
+}
+#homepage-lft ul li.item-developers{
+    background: url(/images/icon-developer.png) no-repeat 5px center;
+}
+#homepage-lft ul li.item-forum{
+    background: url(/images/icon-forum.png) no-repeat 0 center;
+}
+#homepage-lft ul li.item-page{
+    background: url(/images/icon-pages.png) no-repeat 8px center;
+}
+#homepage-lft ul li.item-signup{
+    background: url(/images/icon-join.png) no-repeat 6px center;
+}
+#homepage-lft ul li.item-trade{
+    background: url(/images/icon-trade.png) no-repeat 2px center;
+}
+#homepage-lft ul li.item-vote{
+    background: url(/images/icon-vote.png) no-repeat 5px center;
+}
+#homepage-rgt{
+    float: left;
+    padding-top: 5px;
+    width: 876px;
+    margin-bottom: 10px;
+}
+.items-box{
+    border: solid 1px #ccc;
+    padding: 5px 8px;
+    float: left;
+    margin-left: 10px;
+}
+.items-box .titles{
+    margin: 0 0 5px;
+}
+.items-box ul{
+    list-style: none;
+}
+.items-box li{
+    display: block;
+}
+#popular-pages{
+    width: 206px;
+}
+#large-image{
+    float: left;
+}
+#newest-trade-items{
+    width: 420px;
+    margin-left: 0;
+    margin-top: 10px;
+}
+#recent-forum-posts{
+    width: 404px;
+    margin-top: 10px;
+}
+#popular-pages li{    
+    margin: 5px 0;
+    clear: both;
+}
+#popular-pages li .mainProfilePic{
+    width: 36px;
+    float: left;
+}
+#popular-pages li .link{
+    color: #006699;
+    display: block;
+    margin-left: 42px;    
+}
+#popular-pages li span{
+    display: block;
+    margin-left: 42px;
+}
+
+#recent-forum-posts li{
+    margin: 5px 0;
+}
+#recent-forum-posts li .profileIcon{
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+}
+#recent-forum-posts li .date{
+    color: #a59999;
+}
+
+#newest-trade-items ul{
+    list-style: none;
+}
+#newest-trade-items li{
+    margin: 0 12px 0 0;
+    width: 132px;
+    float: left;
+    padding-bottom: 6px;
+}
+#newest-trade-items li:last-child{
+    margin-right: 0;
+}
+#newest-trade-items li .item-link{
+    display: block;
+    padding-bottom: 4px
+}
+#newest-trade-items li .item-link img{
+    width: 132px;
+}

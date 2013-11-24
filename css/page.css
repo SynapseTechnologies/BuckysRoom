@@ -1,0 +1,199 @@
+/* 1024px total - 262px aside - 762px rightside = 0 */
+a:link.viewAll, a:visited.viewAll{
+	font-size: 12px;
+	color: gray;
+	text-decoration:none;
+}
+a:hover.viewAll, a:active.viewAll{
+	font-size: 12px;
+	color: #cc0000;
+	text-decoration:underline;
+}
+#main_aside{ /*252px total*/
+	width: 242px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float:left;
+}
+#right_side{ /*772 total*/
+	width: 761px;
+	border-left: 1px solid #cccccc;	
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	float:right;
+}
+.mainProfilePic{
+	margin: 5px 0px; /*5px top and bottom*/
+	width: 230px;
+}
+.friendThumbnails{
+	margin: 5px 5px 0px 0px; /*top, right, bottom, left*/
+	width: 75px;
+}
+.profileInfo{ /* Gender, JCC, etc... */
+}
+
+/***
+* User Info Box like About, Education
+*/
+.info-box{
+    
+}
+.info-box h3{
+    color: #333333;
+    font-family: Impact;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-indent: 2px;
+}
+.info-box h3 a.edit-info{
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.info-box p label{
+    font-weight: bold;
+}
+.info-box h3 .view-all{
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.info-box h3 .view-all:hover{
+    color: #cc0000;
+}
+
+.photos-box .photo{
+    height: 150px;
+    float: left;
+    margin: 4px 4px 0 0;
+}
+#albums-nav{
+    padding-bottom:5px; 
+    width:752px; 
+    text-align:right;
+    border-bottom:1px solid #b9bdc1; 
+    margin-bottom:5px;
+}
+
+.page-about-sidebox, .page-link-sidebox {
+    margin: 15px 0;
+}
+.page-about-content #about_text_display{
+    /* min-height: 120px; */
+}
+.page-about-content .about-text-edit-panel {
+    display: none;
+    position: relative;
+    z-index:105;
+}
+.page-about-content .about-text-edit-panel #about_text_input {
+    width:224px;
+    height: 115px;
+    border: 1px solid #CCC;
+    margin-bottom: 5px;
+    font-size:12px;
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.page-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    top:0;
+    background:#FFF; /* color for older browsers */
+    background: rgba(0,0,0,0.1); /***** opacity *****/
+}
+
+.page-title-edit-panel {
+    display: none;
+    position: relative;
+    z-index:105;    
+}
+.page-title-edit-panel #page_title_input {
+    width: 177px;
+    height: 21px;
+    border: 1px solid #CCC;
+    font-size:12px;    
+	padding-left: 2px;
+	margin-right: 5px;
+}
+
+.page-link-edit-panel {
+    display: none;
+    position: relative;
+    z-index:105;
+}
+.page-link-edit-panel #page_title_input {
+    width: 180px;
+    height: 21px;
+    border: 1px solid #CCC;
+    font-size:12px;    
+}
+
+.page-link-edit-panel-innner {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 522px;
+    padding: 5px;
+    border: 1px solid #CCC;
+    background: white;
+}
+#edit_link_node_panel {
+    margin-bottom: 10px;
+}
+#edit_link_node_panel .node {
+    clear: both;
+    margin-bottom: 5px;
+    
+}
+#edit_link_node_panel .node .link-title {
+    width: 176px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #CCC;
+    padding: 1px 2px;
+    font-size: 12px;
+    color: #444;
+}
+#edit_link_node_panel .node .link-link {
+    padding: 1px 2px;
+    width: 266px;
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #CCC;
+    font-size: 12px;
+    line-height: 16px;
+    color: #444;
+}
+#edit_link_node_panel .node .redLink {
+    font-size:11px;
+    color: #cc0000;
+    text-decoration: none;
+}
+#edit_link_node_panel .node .redLink:hover {
+    text-decoration: underline;    
+}
+.page-link-edit-panel #add_new_link_btn {
+    display: inline-block;
+    margin-left: 360px;
+    font-size:12px;
+}
+.page-content-container .info-box {
+    margin-bottom: 15px;
+}
+.page-content-container .new-post-box {
+    margin-top:5px; 
+    margin-bottom:10px; 
+}
+
+.new-post-row #save-btn {
+    display: block;
+    clear:left;
+}

@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{ 
+    display:block;
+}
+a img{
+    border: none; 
+}
+a:link, a:visited{
+    color:#006699;
+    text-decoration:none;
+}
+a:hover, a:active{
+    color:#cc0000;
+    text-decoration:underline;
+}
+a:link.headerLinks, a:visited.headerLinks{
+    color: #333333;
+    text-decoration:none;
+}
+a:hover.headerLinks, a:active.headerLinks{
+    color:#cc0000;
+    text-decoration:none;
+}
+a:link.headerLinksBold, a:visited.headerLinksBold{
+    color:#cc0000;
+    text-decoration:none;
+    font-weight: bold;
+}
+a:hover.headerLinksBold, a:active.headerLinksBold{
+    color: #333333;
+    text-decoration:none;
+    font-weight: bold;
+}
+body{
+    text-align: center;
+    background:#000 url("/images/paper_background.jpg") repeat;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: relative;
+}
+form{
+    padding-top: 10px;
+}
+h1, h2, h3, h4, h5{
+    font-weight: normal;
+}
+table{
+    width:100%;
+}
+td{
+    padding:3px;
+}
+th{
+    color: #999999;
+    font-weight: normal;
+}
+#main_footer{
+    clear: both;
+    text-align: center;
+    padding:10px 5px 50px;
+    color: #333333;
+}
+#main_header{     /* Logo and log-in at top */
+    padding:5px 0px;
+}
+#main_section{     /* main white section under the logo */
+    background:white;
+    float:left;
+    width:1024px;
+    border: 1px solid #cccccc;
+}
+#register-link{
+    color: #fff !important; 
+    text-decoration: none !important;
+}
+#rightAlign{     /* for the log-in at top */
+    float:right;
+    text-align:right;
+    color:#333333;
+}
+#rightAlignLinks{     /* for all header links */
+    margin-top:5px;
+    float:right;
+    text-align:right;
+    color:#333333;
+}
+#wrapper{
+    width: 1024px;
+    margin: 5px auto;
+    text-align:left;
+}
+.nextButton{
+    float:right; 
+    font-weight:bold; 
+    border:1px solid; 
+    border-color:#006699; 
+    padding:2px 5px;    
+}
+.previousButton{
+    float:left; 
+    font-weight:bold; 
+    border:1px solid; 
+    border-color:#006699; 
+    padding:2px 5px;    
+}
+.error{
+    color:white;
+    background-color: #cc0000;
+    padding:4px;
+    margin:0 0 10px 0;
+    font-weight: bold; 
+}
+.input{
+    padding: 2px; 
+    border: 1px solid #cccccc;
+    width: 300px;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.input-error{
+    border-color: #cc0000;
+    background: #ccaaaa;
+}
+.inputHeader{
+    padding: 2px; 
+    border: 1px solid #cccccc;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.inputShort{
+    padding: 2px; 
+    border: 1px solid #cccccc;
+    width: 200px; 
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.postIcons{
+    margin: 5px 5px 5px 0px; /*top, right, bottom, left*/
+    width: 50px;
+    float: left;
+}
+.followPageIcons {
+    margin: 5px 5px 5px 0px; /*top, right, bottom, left*/
+    width: 40px;
+    float: left;
+    border:1px solid #CCC;
+}
+.redButton {
+    background-color:#cc0000;
+    border:1px solid #cc0000;
+    display:inline-block;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    padding:2px 5px;
+    text-decoration:none;
+}
+.redButton:hover {
+    background-color:#aa0000;
+    border:1px solid #aa0000;
+	cursor:pointer;
+}
+a.redButton{
+    color: #fff;
+}
+a.redButton:hover{
+    text-decoration: none;
+}
+
+.replyToPostIcons{
+    margin-right: 5px;
+    width: 40px;
+    float: left;
+}
+.select{
+    border: 1px solid #cccccc;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.select-error{
+    border-color: #cc0000;
+    background: #ccaaaa;
+}
+.success{
+    color:white;
+    background-color: #009900;
+    padding:4px;
+    margin:0 0 10px 0;
+    font-weight: bold; 
+}
+.tableLabel{
+    text-align:right;
+    padding-right:10px;
+    width: 150px;
+}
+.tableLabelThin{
+    text-align:right;
+    padding-right:10px;
+    width: 100px;
+}
+.textarea{
+    height:150px;
+    width: 500px;
+    padding: 2px; 
+    border: 1px solid #cccccc; 
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.titles{
+    color: #333333;
+    font-family: Impact;
+    font-size:18px;
+    font-weight: normal;
+}
+.clear{
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+.lft{
+    float: left;
+}
+.rgt{
+    float: right;
+}
+/** Table **/
+.table{
+    /*border-top: solid 1px #666;*/
+    /*border-bottom: solid 1px #666;*/
+}
+.td{
+    float: left;    
+    padding: 3px;
+}
+.tr{
+    border-bottom: solid 1px #cccccc  ;
+    padding: 5px;
+}
+.thead{
+    /*border-bottom: solid 1px #999;*/
+    padding: 5px;
+}
+.thead .td{
+    color: #999999;
+}
+
+.noborder{
+    /*border: none !important;*/
+}
+/*** Loading Wrapper ***/
+.loading-wrapper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1000;
+}
+.loading-wrapper div{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    -moz-opacity: 0.3;
+    -webkit-opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.loading-wrapper img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+#more-stream{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    display: none;
+}
+/*** Pagination ***/
+.paginate{
+	font-size:11px;
+}
+.paginate a{
+    display: block;
+    float: left;
+    min-width: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 5px 0 0;
+    padding:0 5px;
+    border: solid 1px #cccccc;
+}
+.paginate a:hover{
+    text-decoration: none;
+	color:white;
+    background: #006699;
+	border: solid 1px #333333
+}
+
+.paginate span.current{
+    display: block;
+    float: left;
+    background: #f3f3f3;
+    min-width: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0 5px 0 0;
+    padding:0 5px;
+    border: solid 1px #cccccc;
+    color: #333333;
+	font-weight:bold;
+}
+.paginate .ellipse{
+    float: left;
+    display: block;
+    line-height: 22px;
+    margin: 0 5px 0 0;
+    text-align: center;
+}
+.paginate .label{
+    float: left;
+    line-height: 27px;
+    padding-left: 10px;
+}
+.paginate .pages{
+    float: right;
+}
+.paginate{
+    padding: 5px 0;
+}
+a.report-link{
+    color: #999;
+}
